@@ -1,0 +1,49 @@
+﻿  ofApp.cpp
+src\ofApp.cpp(98): warning C4838: conversion from 'float' to 'unsigned char' requires a narrowing conversion
+src\ofApp.cpp(96): warning C4101: 'pixVal': unreferenced local variable
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(967): error C2794: 'iterator_category': is not a member of any direct or indirect base class of 'std::iterator_traits<_InIt>'
+          with
+          [
+              _InIt=int
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2787): note: see reference to function template instantiation 'void std::_Debug_range<_FwdIt>(_InIt,_InIt,std::_Dbfile_t,std::_Dbline_t)' being compiled
+          with
+          [
+              _FwdIt=int,
+              _InIt=int
+          ]
+  src\ofApp.cpp(64): note: see reference to function template instantiation 'void std::fill<int,int>(_FwdIt,_FwdIt,const _Ty &)' being compiled
+          with
+          [
+              _FwdIt=int,
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(967): error C2938: '_Iter_cat_t<int>' : Failed to specialize alias template
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(967): error C2062: type 'unknown-type' unexpected
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2740): error C2794: 'value_type': is not a member of any direct or indirect base class of 'std::iterator_traits<_InIt>'
+          with
+          [
+              _InIt=int
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2780): note: see reference to class template instantiation 'std::_Fill_memset_is_safe_helper<_FwdIt,_Ty>' being compiled
+          with
+          [
+              _FwdIt=int,
+              _Ty=int
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2788): note: see reference to function template instantiation 'void std::_Fill_unchecked<_Iter,_Ty>(_FwdIt,_FwdIt,const _Ty &)' being compiled
+          with
+          [
+              _Iter=int,
+              _Ty=int,
+              _FwdIt=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2740): error C2938: '_Iter_value_t<int>' : Failed to specialize alias template
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2740): error C2062: type 'unknown-type' unexpected
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2740): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2746): error C2065: '_Value_type': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2746): error C2923: 'std::_Is_character': '_Value_type' is not a valid template type argument for parameter '_Ty'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2746): error C3203: '_Is_character': unspecialized class template can't be used as a template argument for template parameter '_Traits', expected a real type
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2749): error C2065: '_Value_type': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2749): error C2923: 'std::is_same': '_Value_type' is not a valid template type argument for parameter '_Ty2'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2749): error C3203: 'is_same': unspecialized class template can't be used as a template argument for template parameter '_Traits', expected a real type
